@@ -217,7 +217,7 @@ jobs:
 
     - name: Download Qt Creator
       id: qt_creator
-      uses: qt-creator/install-dev-package@v2.0
+      uses: qt-creator/install-dev-package@v2.2
       with:
         version: ${{ matrix.qt_config.qt_creator_version }}
         unzip-to: 'qtcreator'
