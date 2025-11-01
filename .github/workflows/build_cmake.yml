@@ -52,7 +52,8 @@ jobs:
         qt_config:
         - {
             qt_version: "6.10.0",
-            qt_creator_version: "18.0.0"
+            qt_creator_version: "18.0.0",
+            latest: ${{ true }}
           }
         - {
             qt_version: "6.9.3",
@@ -292,7 +293,7 @@ jobs:
 
     # The json is the same for all platforms, but we need to save one if we Release on Extension Store
     - name: Upload plugin json
-      if: matrix.config.platform == 'linux_x64'
+      if: ${{ (matrix.config.platform == 'linux_x64') && (matrix.qt_config.latest == 'true') }}
       uses: actions/upload-artifact@v4
       with:
         name: ${{ env.PLUGIN_NAME }}-QtC${{ matrix.qt_config.qt_creator_version }}.json
