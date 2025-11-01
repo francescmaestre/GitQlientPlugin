@@ -52,7 +52,8 @@ jobs:
         qt_config:
         - {
             qt_version: "6.10.0",
-            qt_creator_version: "18.0.0"
+            qt_creator_version: "18.0.0",
+            latest: "true"
           }
         - {
             qt_version: "6.9.3",
