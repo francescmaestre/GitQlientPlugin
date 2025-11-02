@@ -1,7 +1,7 @@
 {
     "Id" : "gitqlient",
     "Name" : "GitQlient",
-    "Version" : "1.7.0",
+    "Version" : "1.6.1",
     "Vendor" : "GitQlient",
     "VendorId" : "gitqlient",
     "Copyright" : "(C) 2025 Francesc M.",
