@@ -21,7 +21,7 @@ The plugin should be activated by default once you have copied it, so you just w
 
 # GitQlient: Multi-platform Git client written with Qt
 
-[![Master](https://github.com/francescmaestre/GitQlient/actions/workflows/master.yaml/badge.svg?branch=master)](https://github.com/francescmm/GitQlient/actions/workflows/master.yaml)
+[![Master](https://github.com/francescmaestre/GitQlient/actions/workflows/master.yaml/badge.svg?branch=master)](https://github.com/francescmaestre/GitQlient/actions/workflows/master.yaml)
 
 GitQlient, pronounced as git+client (/gɪtˈklaɪənt/) is a multi-platform Git client originally forked from QGit. Nowadays it goes beyond of just a fork and adds a lot of new functionality.
 
